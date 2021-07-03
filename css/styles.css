@@ -1,0 +1,162 @@
+/* ----------------------------------General------------------------------------ */
+body {
+  font-family: "Montserrat-black", sans-serif;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+/* ----------------------------------Container------------------------------------ */
+.container-fluid {
+  padding: 7% 15%;
+}
+/* -------------Sections-------------------- */
+.colored {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white {
+  background-color: white;
+}
+/* ----------------------------------Nav Bar------------------------------------ */
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-items {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat-light", sans-serif;
+  font-size: 1.2rem;
+}
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* ----------------------------------Title------------------------------------ */
+
+.title-heading {
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+#title .container-fluid {
+  padding: 3% 15% 6%;
+  text-align: left;
+}
+
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+.title-img-cont {
+  position: relative;
+}
+
+/* ----------------------------------Features------------------------------------ */
+
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.feature-item {
+  padding: 2rem;
+}
+
+.feature-icon {
+  color: #ef8172;
+  padding-bottom: 2rem;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+.feature-disc {
+  color: #8f8f8f;
+}
+
+/* ----------------------------------Testimonials------------------------------------ */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonials-heading {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.test-img {
+  border-radius: 50%;
+  width: 10%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* ----------------------------------Pricing------------------------------------ */
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+/* ----------------------------------Footer------------------------------------ */
+
+.footer-icons {
+  margin: 20px 10px;
+}
+
+#footer p {
+  color: #8f8f8f;
+}
+
+/* ----------------------------------Media Query------------------------------------ */
+@media (max-width: 1024px) {
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    right: 1%;
+    left: 10%;
+  }
+  #title .container-fluid {
+    padding: 3% 15% 6%;
+    text-align: center;
+  }
+}
