@@ -26,16 +26,6 @@ View the feature, testimonials and pricing for various plans.
 Home Page:
 ![Desktop-View](./design/homePage.png)
 
-Testimony:
-![Desktop-View](./design/testimony.png)
-
-Pricing:
-![Desktop-View](./design/pricing.png)
-
-Footer:
-![Desktop-View](./design/footer.png)
-
-
 ### Links
 
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
